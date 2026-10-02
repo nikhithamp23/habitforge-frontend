@@ -1,4 +1,4 @@
-const BASE = "http://10.153.57.75:5000/api";
+const BASE = "https://habitforge-backend-xec5.onrender.com/api";
 
 export class ApiError extends Error {
   constructor(status, code, message) {
